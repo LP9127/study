@@ -1,4 +1,4 @@
-//1¡¢ÔÚÆÁÄ»ÉÏÊä³öHello Word!
+ï»¿//1ã€åœ¨å±å¹•ä¸Šè¾“å‡ºHello Word!
 /*#include <stdio.h>
 void Print()
 {
@@ -11,7 +11,7 @@ int main()
 	return 0;
 }*/
 
-//2¡¢¼ÆËã1µ½100µÄºÍ£¨Ñ­»·£©
+//2ã€è®¡ç®—1åˆ°100çš„å’Œï¼ˆå¾ªç¯ï¼‰
 /*#include <stdio.h>
 
 int Add()
@@ -31,7 +31,7 @@ int main()
 	return 0;
 }*/
 
-//3¡¢´òÓ¡9*9³Ë·¨¿Ú¾÷±í£¨Ñ­»·£©
+//3ã€æ‰“å°9*9ä¹˜æ³•å£è¯€è¡¨ï¼ˆå¾ªç¯ï¼‰
 /*#include <stdio.h>
 void Print()
 {
@@ -51,7 +51,7 @@ int main()
 	return 0;
 }*/
 
-//4¡¢ÇóÁ½¸öÕûÊıµÄ½Ï´óÖµ£¨·ÖÖ§ÅĞ¶Ï£©
+//4ã€æ±‚ä¸¤ä¸ªæ•´æ•°çš„è¾ƒå¤§å€¼ï¼ˆåˆ†æ”¯åˆ¤æ–­ï¼‰
 //#include <stdio.h>
 /*int Max2(int x, int y)
 {
@@ -70,14 +70,14 @@ int main()
 {
 	int a = 0;
 	int b = 0;
-	printf("ÇëÊäÈëÁ½¸öÕûÊı£º");
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•´æ•°ï¼š");
 	scanf_s("%d %d",&a,&b);
 	int ret = Max2(a, b);
-	printf("Á½ÕßÖĞ½Ï´óµÄÊÇ£º%d\n",ret);
+	printf("ä¸¤è€…ä¸­è¾ƒå¤§çš„æ˜¯ï¼š%d\n",ret);
 	return 0;
 }*/
 
-//5¡¢Çó10¸öÕûÊıÖĞµÄ×î´óÖµ£¨Ñ­»·£©
+//5ã€æ±‚10ä¸ªæ•´æ•°ä¸­çš„æœ€å¤§å€¼ï¼ˆå¾ªç¯ï¼‰
 /*#include <stdio.h>
 int Max(int* a)
 {
@@ -95,10 +95,10 @@ int main()
 
 	int arr[10] = { 10, 9, 66, 11, 4, 20, 1, 8, 5, 6 };
 	int ret = Max(arr);
-	printf("Õâ10¸öÊıÖĞ×î´óµÄÊÇ£º%d\n",ret);
+	printf("è¿™10ä¸ªæ•°ä¸­æœ€å¤§çš„æ˜¯ï¼š%d\n",ret);
 	return 0;
 }*/
-//6¡¢Çó1-100Ö®¼äµÄËØÊı
+//6ã€æ±‚1-100ä¹‹é—´çš„ç´ æ•°
 /*#include <stdio.h>
 #include <math.h>
 int JustPrime(int n)
@@ -125,10 +125,10 @@ int main()
 		}	
 	}
 	printf("\n");
-	printf("¹²ÓĞ%d¸öËØÊı\n", k);
+	printf("å…±æœ‰%dä¸ªç´ æ•°\n", k);
 	return 0;
 }*/
-//7¡¢ÇóÁ½¸öÕûÊıµÄ×î´ó¹«Ô¼Êı£¨Õ·×ªÏà³ı£©
+//7ã€æ±‚ä¸¤ä¸ªæ•´æ•°çš„æœ€å¤§å…¬çº¦æ•°ï¼ˆè¾—è½¬ç›¸é™¤ï¼‰
 /*#include <stdio.h>
 
 int GreatDiv(int x, int y)
@@ -147,13 +147,13 @@ int main()
 {
 	int a = 0;
 	int b = 0;
-	printf("ÇëÊäÈëÁ½¸öÕûÊı->");
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•´æ•°->");
 	scanf_s("%d %d",&a,&b);
 	int ret = GreatDiv(a, b);
-	printf("ÕâÁ½¸öÊıµÄ×î´ó¹«Ô¼ÊıÎª£º%d",ret);
+	printf("è¿™ä¸¤ä¸ªæ•°çš„æœ€å¤§å…¬çº¦æ•°ä¸ºï¼š%d",ret);
 	return 0;
 }*/
-//8¡¢ÇóÁ½¸öÕûÊıµÄ×îĞ¡¹«±¶Êı(½èÖú×î´ó¹«Ô¼Êı)
+//8ã€æ±‚ä¸¤ä¸ªæ•´æ•°çš„æœ€å°å…¬å€æ•°(å€ŸåŠ©æœ€å¤§å…¬çº¦æ•°)
 /*#include <stdio.h>
 
 int GreatDiv(int x, int y)
@@ -178,26 +178,26 @@ int main()
 {
 	int a = 0;
 	int b = 0;
-	printf("ÇëÊäÈëÁ½¸öÕûÊı->");
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•´æ•°->");
 	scanf_s("%d %d", &a, &b);
 	int ret = LestMultiple(a, b);
-	printf("ÕâÁ½¸öÊıµÄ×îĞ¡¹«±¶ÊıÎª£º%d", ret);
+	printf("è¿™ä¸¤ä¸ªæ•°çš„æœ€å°å…¬å€æ•°ä¸ºï¼š%d", ret);
 	return 0;
 }*/
-//9¡¢½»»»Á½¸öÕûÊıµÄÖµ
+//9ã€äº¤æ¢ä¸¤ä¸ªæ•´æ•°çš„å€¼
 /*#include <stdio.h>
 int main()
 {
 	int a, b;
-	printf("ÇëÊäÈëÁ½¸öÕûÊı->");
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•´æ•°->");
 	scanf_s("%d %d",&a,&b);
 	int tmp = a;
 	a = b;
 	b = tmp;
-	printf("½»»»ºóµÄ½á¹ûÎª£º%d %d",a,b);
+	printf("äº¤æ¢åçš„ç»“æœä¸ºï¼š%d %d",a,b);
 	return 0;
 }*/
-//10¡¢±àĞ´Ò»¸öº¯Êı£¬º¯ÊıµÄ¹¦ÄÜÊÇ½»»»Á½¸öÊıµÄÖµ
+//10ã€ç¼–å†™ä¸€ä¸ªå‡½æ•°ï¼Œå‡½æ•°çš„åŠŸèƒ½æ˜¯äº¤æ¢ä¸¤ä¸ªæ•°çš„å€¼(ä¼ å€)
 /*#include <stdio.h>
 
 void Swap(int* x, int* y)
@@ -211,9 +211,141 @@ int main()
 {
 	int a = 0;
 	int b = 0;
-	printf("ÇëÊäÈëÁ½¸öÊı->");
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°->");
 	scanf_s("%d %d",&a,&b);
 	Swap(&a,&b);
-	printf("½»»»ºóµÄ½á¹ûÎª£º%d %d",a,b);
+	printf("äº¤æ¢åçš„ç»“æœä¸ºï¼š%d %d",a,b);
+	return 0;
+}*/
+//11ã€æœ‰1ã€2ã€3ã€4å››ä¸ªæ•°å­—ï¼Œèƒ½ç»„æˆå¤šå°‘ä¸ªäº’ä¸ç›¸åŒä¸”æ— é‡å¤æ•°å­—çš„ä¸‰ä½æ•°ï¼ˆå¾ªç¯ï¼‰
+/*#include <stdio.h>
+int main()
+{
+	int i = 0;
+	int j = 0;
+	int k = 0;
+	int count = 0;
+	for (i = 1; i <= 4; ++i)
+	{
+		for (j = 1; j <= 4; ++j)
+		{
+			for (k = 1; k <= 4; ++k)
+			{
+				if ((i != j) && (i != k) && (j != k))
+				{
+					count++;
+					printf("%d%d%d\n",i,j,k);
+				}
+			}
+		}
+	}
+	printf("æ€»å…±æœ‰%dä¸ª\n",count);
+	return 0;
+}*/
+//12ã€è¾“å‡º2000å¹´ä»¥å‰æ‰€æœ‰çš„é—°å¹´ä»¥åŠé—°å¹´çš„ä¸ªæ•°ï¼ˆé—°å¹´è§„åˆ™ï¼‰
+//å››å¹´ä¸€é—°   ç™¾å¹´ä¸é—°   å››ç™¾å¹´å†é—°
+/*#include <stdio.h>
+int main()
+{
+	int count = 0;
+	for (int i = 1; i <= 2000; i++)
+	{
+		if (((i % 4 == 0) && (i % 100 != 0))|| ((i % 4 == 0) && (i % 400 == 0)))
+		{
+			count++;
+			printf(" %d ", i);
+		}
+	}
+	printf("å…±æœ‰%dä¸ªé—°å¹´\n", count);
+	return 0;
+}*/
+//13ã€æœ‰ä¸€ä¸ªåˆ†æ•°æ•°åˆ—ï¼š2/1,3/2,5/3,8/5,13/8,21/13...æ±‚å‡ºæ­¤åºåˆ—å‰né¡¹å’Œ
+/*#include <stdio.h>
+
+double CountSum(int n)
+{
+	int  k=0;
+	double sum = 0, i = 2, j = 1;
+	for (int t = 1; t <= n; ++t)
+	{
+		sum += i / j;
+		k = i;
+		i = j + i;
+		j = k;
+	}
+	return sum;
+}
+int main()
+{
+	int n = 0;
+	printf("è¯·è¾“å…¥nå€¼->");
+	scanf_s("%d",&n);
+	double ret = CountSum(n);
+	printf("å‰né¡¹ä¹‹å’Œä¸ºï¼š%lf\n",ret);
+	return 0;
+}*/
+//14ã€S=a+aa+aaa+aaaa+aaaaaï¼Œæ±‚Sçš„å€¼ï¼ˆå…±æœ‰5ä¸ªæ•°ç›¸åŠ ï¼‰
+/*#include <stdio.h>
+
+int Count(int n)
+{
+	int sum = n;
+	int tmp = n;
+	for (int i = 0; i < 4; ++i)
+	{
+		 tmp = tmp * 10 + n;
+		sum +=tmp;
+	}
+	return sum;
+}
+
+int main()
+{
+	int a = 0;
+	printf("è¯·è¾“å…¥ä¸€ä¸ªæ•°->");
+	scanf_s("%d",&a);
+	int ret = Count(a);
+	printf("å’Œä¸ºï¼š%d\n",ret);
+	return 0;
+}*/
+//15ã€ä¸€ä¸ªçƒä»100ç±³é«˜åº¦è½ä¸‹ï¼Œæ¯æ¬¡è½åœ°ååå¼¹å›åŸé«˜åº¦çš„ä¸€åŠï¼Œå†è½ä¸‹ï¼Œæ±‚å®ƒåœ¨ç¬¬10æ¬¡è½åœ°æ—¶å…±ç»è¿‡å¤šå°‘ç±³ï¼Ÿç¬¬10æ¬¡åå¼¹å¤šé«˜ï¼Ÿ
+/*#include <stdio.h>
+
+double Meter(double x, int y)
+{
+	double sum = x;
+	while (y>1)
+	{
+		sum += 2 * (x / 2);
+		x = x / 2;
+		y--;
+	}
+	return sum;
+}
+
+double High(double x, int y)
+{
+	double h = x;
+	int i = 1;
+	while (i<=y)
+	{
+		h /= 2;
+		i++;
+	}
+	return h;
+}
+
+int main()
+{
+	double m =0;
+	int n =0;
+	printf("è¯·è¾“å…¥é«˜åº¦â€”>");
+	scanf_s("%lf",&m);
+	printf("ç¬¬å‡ æ¬¡è½åœ°ï¼Ÿ");
+	scanf_s("%d",&n);
+	double ret1 = Meter(m, n);
+	printf("å…±ç»è¿‡%lfç±³\n",ret1);
+	double ret2=High(m,n);
+	printf("æœ€åä¸€æ¬¡åå¼¹%lfç±³\n",ret2);
 	return 0;
 }*/
